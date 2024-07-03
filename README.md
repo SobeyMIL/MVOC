@@ -2,7 +2,7 @@
 
 [comment]: <> (![]&#40;asset/logo.png&#41;)
 
-<img src="assets/logo.png" style="height:100px" />
+<img src="assets/logo.png"  />
 
 [![arXiv](https://img.shields.io/badge/arXiv-2406.15829-b31b1b.svg)](https://arxiv.org/abs/2406.15829)  [![License](https://img.shields.io/badge/License-MIT-yellow)]() 
 
