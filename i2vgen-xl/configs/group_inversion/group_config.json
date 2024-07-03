@@ -1,0 +1,107 @@
+[
+  {
+    "active": true,
+    "force_recompute_latents": true,
+    "video_name": "boat_surf",
+    "video_dir": "../demo/boat_surf/",
+    "image_size": [
+      1280,
+      720
+    ],
+    "n_frames": 16,
+    "recon_config": {
+      "enable_recon": true,
+      "ddim_init_latents_t_idx": 20
+    }
+  },
+  {
+    "active": true,
+    "force_recompute_latents": true,
+    "video_name": "crane_seal",
+    "video_dir": "../demo/crane_seal/",
+    "image_size": [
+      1280,
+      720
+    ],
+    "n_frames": 16,
+    "recon_config": {
+      "enable_recon": true,
+      "ddim_init_latents_t_idx": 20
+    }
+  },
+  {
+    "active": true,
+    "force_recompute_latents": true,
+    "video_name": "duck_crane",
+    "video_dir": "../demo/duck_crane/",
+    "image_size": [
+      1280,
+      720
+    ],
+    "n_frames": 16,
+    "recon_config": {
+      "enable_recon": true,
+      "ddim_init_latents_t_idx": 20
+    }
+  },
+  {
+    "active": true,
+    "force_recompute_latents": true,
+    "video_name": "monkey_swan",
+    "video_dir": "../demo/monkey_swan/",
+    "image_size": [
+      1280,
+      720
+    ],
+    "n_frames": 16,
+    "recon_config": {
+      "enable_recon": true,
+      "ddim_init_latents_t_idx": 20
+    }
+  },
+  {
+    "active": true,
+    "force_recompute_latents": true,
+    "video_name": "rider_deer",
+    "video_dir": "../demo/rider_deer/",
+    "image_size": [
+      1280,
+      720
+    ],
+    "n_frames": 16,
+    "recon_config": {
+      "enable_recon": true,
+      "ddim_init_latents_t_idx": 20
+    }
+  },
+  {
+    "active": true,
+    "force_recompute_latents": true,
+    "video_name": "robot_cat",
+    "video_dir": "../demo/robot_cat/",
+    "image_size": [
+      1280,
+      720
+    ],
+    "n_frames": 16,
+    "recon_config": {
+      "enable_recon": true,
+      "ddim_init_latents_t_idx": 20
+    }
+  },
+  {
+    "active": true,
+    "force_recompute_latents": true,
+    "video_name": "seal_bird",
+    "video_dir": "../demo/seal_bird/",
+    "image_size": [
+      1280,
+      720
+    ],
+    "n_frames": 16,
+    "recon_config": {
+      "enable_recon": true,
+      "ddim_init_latents_t_idx": 20
+    }
+  }
+]

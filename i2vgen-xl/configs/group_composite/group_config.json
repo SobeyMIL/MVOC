@@ -1,0 +1,261 @@
+[
+  {
+    "active": true,
+    "task_name": "MVOC-Demo",
+    "video_name":"boat_surf",
+    "image_size": [1280, 720],
+    "edited_first_frame_path":"demo/boat_surf/boat_surf/edited_first_frame/00000.png",
+    "editing_prompt":"windsurf,sailboat,sky,ocean",
+    "edited_video_name": "sailboat and surfing",
+    "ddim_init_latents_t_idx": 0,
+    "pnp_f_t": 0.1,
+    "pnp_spatial_attn_t": 1.0,
+    "pnp_temp_attn_t":1.0,
+    "pnp_cross_attn_t": 0.0,
+    "random_noise_ratio": 0.0,
+    "obj_mask_path": [
+      "demo/boat_surf/boat_mask",
+      "demo/boat_surf/surf_mask"
+    ],
+    "obj_width_height": [
+      [1280, 720],
+      [1280, 720]
+    ],
+    "obj_ddim_latents_path": [
+      "inversions/i2vgen-xl/boat_surf/ddim_latents",
+      "inversions/i2vgen-xl/boat_surf/ddim_latents"
+    ],
+    "bg_ddim_latents_path": "inversions/i2vgen-xl/boat_surf/ddim_latents",
+    "edited_contorl_frame_path_main": "demo/boat_surf/boat_surf",
+    "edited_contorl_frame_path_background": "demo/boat_surf/boat_surf",
+    "edited_contorl_frame_path": [
+      "demo/boat_surf/boat_surf",
+      "demo/boat_surf/boat_surf"
+    ],
+    "fusion_step": [0, 1]
+  },
+  {
+    "active": true,
+    "task_name": "MVOC-Demo",
+    "video_name":"crane_seal",
+    "image_size": [1280, 720],
+    "edited_first_frame_path":"demo/crane_seal/crane_seal/edited_first_frame/00000.png",
+    "editing_prompt":"A seal and a crane in the creek",
+    "edited_video_name": "seal and crane in creek",
+    "ddim_init_latents_t_idx": 5,
+    "pnp_f_t": 0.25,
+    "pnp_spatial_attn_t": 0.5,
+    "pnp_temp_attn_t":0.0,
+    "pnp_cross_attn_t": 0.0,
+    "random_noise_ratio": 0.01,
+    "obj_mask_path": [
+      "demo/crane_seal/crane_mask",
+      "demo/crane_seal/seal_mask"
+    ],
+    "obj_width_height": [
+      [1280, 720],
+      [1280, 720]
+    ],
+    "obj_ddim_latents_path": [
+      "inversions/i2vgen-xl/crane_seal/ddim_latents",
+      "inversions/i2vgen-xl/crane_seal/ddim_latents"
+    ],
+     "obj_ddim_latents_idx_offset": [
+      0, 5
+    ],
+    "bg_ddim_latents_path": "inversions/i2vgen-xl/crane_seal/ddim_latents",
+    "edited_contorl_frame_path_main": "demo/crane_seal/crane_seal",
+    "edited_contorl_frame_path_background": "demo/crane_seal/crane_seal",
+    "edited_contorl_frame_path": [
+      "demo/crane_seal/crane_seal",
+      "demo/crane_seal/crane_seal"
+    ],
+    "fusion_step": [0, 1],
+    "inject_background": false
+  },
+  {
+    "active": true,
+    "task_name": "MVOC-Demo",
+    "video_name":"duck_crane",
+    "image_size": [1280, 720],
+    "edited_first_frame_path":"demo/duck_crane/duck_crane/edited_first_frame/00000.png",
+    "editing_prompt":"A duck and a crane on the meadow",
+    "edited_video_name": "duck and crane on meadow",
+    "ddim_init_latents_t_idx": 0,
+    "pnp_f_t": 0.1,
+    "pnp_spatial_attn_t": 1.0,
+    "pnp_temp_attn_t":1.0,
+    "pnp_cross_attn_t": 0.0,
+    "random_noise_ratio": 0.0,
+    "obj_mask_path": [
+      "demo/duck_crane/duck_mask",
+      "demo/duck_crane/crane_mask"
+    ],
+    "obj_width_height": [
+      [1280, 720],
+      [1280, 720]
+    ],
+    "obj_ddim_latents_path": [
+      "inversions/i2vgen-xl/duck_crane/ddim_latents",
+      "inversions/i2vgen-xl/duck_crane/ddim_latents"
+    ],
+    "bg_ddim_latents_path": "inversions/i2vgen-xl/duck_crane/ddim_latents",
+    "edited_contorl_frame_path_main": "demo/duck_crane/duck_crane",
+    "edited_contorl_frame_path_background": "demo/duck_crane/duck_crane",
+    "edited_contorl_frame_path": [
+      "demo/duck_crane/duck_crane",
+      "demo/duck_crane/duck_crane"
+    ],
+    "fusion_step": [0, 3]
+  },
+  {
+    "active": true,
+    "task_name": "MVOC-Demo",
+    "video_name":"monkey_swan",
+    "image_size": [1280, 720],
+    "edited_first_frame_path":"demo/monkey_swan/monkey_swan/edited_first_frame/00000.png",
+    "editing_prompt":"A monkey and a swan on the steppe",
+    "editing_negative_prompt": "Distorted, discontinuous, Ugly, blurry, low resolution, motionless, static, disfigured, disconnected limbs, Ugly faces, incomplete arms",
+    "edited_video_name": "monkey and swan on steppe",
+    "ddim_init_latents_t_idx": 0,
+    "pnp_f_t": 0.1,
+    "pnp_spatial_attn_t": 1.0,
+    "pnp_temp_attn_t":1.0,
+    "pnp_cross_attn_t": 0.0,
+    "random_noise_ratio": 0.0,
+    "obj_mask_path": [
+      "demo/monkey_swan/monkey_mask",
+      "demo/monkey_swan/swan_mask"
+    ],
+    "obj_width_height": [
+      [1280, 720],
+      [1280, 720]
+    ],
+    "obj_ddim_latents_path": [
+      "inversions/i2vgen-xl/monkey_swan/ddim_latents",
+      "inversions/i2vgen-xl/monkey_swan/ddim_latents"
+    ],
+    "bg_ddim_latents_path": "inversions/i2vgen-xl/monkey_swan/ddim_latents",
+    "edited_contorl_frame_path_main": "demo/monkey_swan/monkey_swan",
+    "edited_contorl_frame_path_background": "demo/monkey_swan/monkey_swan",
+    "edited_contorl_frame_path": [
+      "demo/monkey_swan/monkey_swan",
+      "demo/monkey_swan/monkey_swan"
+    ],
+    "fusion_step": [0, 1],
+    "inject_background": true
+  },
+  {
+    "active": true,
+    "task_name": "MVOC-Demo",
+    "video_name":"rider_deer_road",
+    "image_size": [1280, 720],
+    "edited_first_frame_path":"demo/rider_deer/rider_deer/edited_first_frame/00000.png",
+    "editing_prompt":"A man riding a bicycle on a road and a deer standing in a field, in an autumn forest.",
+    "edited_video_name": "rider and deer in autumn forest",
+    "ddim_init_latents_t_idx": 0,
+    "pnp_f_t": 0.0,
+    "pnp_spatial_attn_t": 0.06,
+    "pnp_temp_attn_t":0.0,
+    "pnp_cross_attn_t": 0.0,
+    "random_noise_ratio": 0.1,
+    "obj_mask_path": [
+      "demo/rider_deer/deer_mask",
+      "demo/rider_deer/rider_mask"
+    ],
+    "obj_width_height": [
+      [1280, 720],
+      [1280, 720]
+    ],
+    "obj_ddim_latents_idx_offset": [
+      0, 3
+    ],
+    "obj_ddim_latents_path": [
+      "inversions/i2vgen-xl/rider_deer/ddim_latents",
+      "inversions/i2vgen-xl/rider_deer/ddim_latents"
+    ],
+    "bg_ddim_latents_path": "inversions/i2vgen-xl/rider_deer/ddim_latents",
+    "edited_contorl_frame_path_main": "demo/rider_deer/rider_deer",
+    "edited_contorl_frame_path_background": "demo/rider_deer/rider_deer",
+    "edited_contorl_frame_path": [
+      "demo/rider_deer/rider_deer",
+      "demo/rider_deer/rider_deer"
+    ],
+    "fusion_step": [0, 1],
+    "inject_background": true,
+    "obj_random_noise_fusion": true
+  },
+  {
+    "active": true,
+    "task_name": "MVOC-Demo",
+    "video_name":"table_robot_cat",
+    "bg_video_name": "table_robot_cat",
+    "image_size": [1280, 720],
+    "edited_first_frame_path":"demo/robot_cat/robot_cat/edited_first_frame/00000.png",
+    "editing_prompt":"A small robot and a lucky cat figurine on a desk with a laptop and a plant in the background",
+    "edited_video_name": "robot and cat on table",
+    "ddim_init_latents_t_idx": 0,
+    "pnp_f_t": 0.2,
+    "pnp_spatial_attn_t": 1.0,
+    "pnp_temp_attn_t":1.0,
+    "pnp_cross_attn_t": 0.0,
+    "random_noise_ratio": 0.2,
+    "obj_mask_path": [
+      "demo/robot_cat/cat_mask",
+      "demo/robot_cat/robot_mask"
+    ],
+    "obj_width_height": [
+      [1280, 720],
+      [1280, 720]
+    ],
+    "obj_ddim_latents_path": [
+      "inversions/i2vgen-xl/robot_cat/ddim_latents",
+      "inversions/i2vgen-xl/robot_cat/ddim_latents"
+    ],
+    "bg_ddim_latents_path": "inversions/i2vgen-xl/robot_cat/ddim_latents",
+    "edited_contorl_frame_path_main": "demo/robot_cat/robot_cat",
+    "edited_contorl_frame_path_background": "demo/robot_cat/robot_cat",
+    "edited_contorl_frame_path": [
+      "demo/robot_cat/robot_cat",
+      "demo/robot_cat/robot_cat"
+    ],
+    "fusion_step": [0, 1]
+  },
+  {
+    "active": true,
+    "task_name": "MVOC-Demo",
+    "video_name":"seal_bird",
+    "image_size": [1280, 720],
+    "edited_first_frame_path":"demo/seal_bird/seal_bird/edited_first_frame/00000.png",
+    "editing_prompt":"A seabird and a seal on the beach",
+    "editing_negative_prompt": "Ocean wave,Water,Chaotic, chaotic colors,Distorted, discontinuous, Ugly, blurry, low resolution, motionless, static, disfigured, disconnected limbs, Ugly faces, incomplete arms",
+    "edited_video_name": "seal and bird on beach",
+    "ddim_init_latents_t_idx": 0,
+    "pnp_f_t": 0.05,
+    "pnp_spatial_attn_t": 1.0,
+    "pnp_temp_attn_t":1.0,
+    "pnp_cross_attn_t": 0.0,
+    "random_noise_ratio": 0.0,
+    "obj_mask_path": [
+      "demo/seal_bird/seal_mask",
+      "demo/seal_bird/bird_mask"
+    ],
+    "obj_width_height": [
+      [1280, 720],
+      [1280, 720]
+    ],
+    "obj_ddim_latents_path": [
+      "inversions/i2vgen-xl/seal_bird/ddim_latents",
+      "inversions/i2vgen-xl/seal_bird/ddim_latents"
+    ],
+    "bg_ddim_latents_path": "inversions/i2vgen-xl/seal_bird/ddim_latents",
+    "edited_contorl_frame_path_main": "demo/seal_bird/seal_bird",
+    "edited_contorl_frame_path_background": "demo/seal_bird/seal_bird",
+    "edited_contorl_frame_path": [
+      "demo/seal_bird/seal_bird",
+      "demo/seal_bird/seal_bird"
+    ],
+    "fusion_step": [0, 1],
+    "inject_background": true
+  }
+]
